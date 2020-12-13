@@ -5,7 +5,7 @@
 </p>
 
 ## [usr_src_linux](./usr_src_linux)
-<img src="./logo.png" alt="logo" align="right" width="250px">
+<img src="./logo.png" alt="logo" align="right" width="300px">
 
 - bzImage: LZ4
 - [Xanmod based patchset](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
