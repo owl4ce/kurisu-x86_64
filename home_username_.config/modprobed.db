@@ -10,11 +10,6 @@ ath9k_common
 ath9k_hw
 backlight
 binfmt_misc
-bluetooth
-btbcm
-btintel
-btrtl
-btusb
 ccm
 ccp
 cec
