@@ -14,6 +14,7 @@
 - Enabled swap compressed block as default: LZ4
 - AMD only (disabled most intel features)
 - Governor performance as default
+- BFQ I/O Scheduler as default
 - Custom boot logo - [UwU](./usr_src_linux/drivers/video/logo/logo_linux_clut224.ppm)
 
 ## [home_username_.config](./home_username_.config)
