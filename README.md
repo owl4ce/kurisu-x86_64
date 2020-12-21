@@ -22,6 +22,11 @@
 *https://wiki.archlinux.org/index.php/Modprobed-db*
 
 ---
+*~*
+```bash
+modprobed-db store
+```
+
 */usr/src/linux*
 ```bash
 cp .config_violet .config
@@ -35,5 +40,5 @@ make -j`nproc` install
 [backup_config](https://github.com/owl4ce/hold-my-gentoo)
 
 <p align="center">
-  <img alt="thunar" align="center" src="./thunar.png"/>
+  <img alt="kernel-modules" align="center" src="./kernel-modules.png"/>
 </p>
