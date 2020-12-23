@@ -7,11 +7,11 @@
 ## [usr_src_linux](./usr_src_linux)
 <img src="./logo.png" alt="logo" align="right" width="300px">
 
-- bzImage: LZ4
+- LZ4 bzImage
 - [Xanmod based patchset](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
 - [Cachy CPU Scheduler](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/hamadmarri/cacule-cpu-scheduler/tree/master/patches/Cachy/v5.9) (cachy + idle balance)
 - Disabled numa, debugging, etc. (kernel hacking)
-- Enabled swap compressed block as default: LZ4
+- Enabled swap compressed block as default (LZ4)
 - AMD only (disabled most intel features)
 - Governor performance as default
 - BFQ I/O Scheduler as default
