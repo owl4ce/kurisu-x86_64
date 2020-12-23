@@ -23,23 +23,22 @@
 *https://wiki.archlinux.org/index.php/Modprobed-db*
 
 ---
-*~*
+**~**
 ```bash
-modprobed-db store
+$ modprobed-db store
 ```
 
-*/usr/src/linux*
+**/usr/src/linux**
 ```bash
-cp .config_violet .config
-patch -p1 < /path_extracted_cachy/cachy-5.9-r8.patch
-patch -p1 < /path_extracted_cachy/02-idle_balance.patch
-make -j`nproc` LSMOD=/home/username/.config/modprobed.db localmodconfig
-make -j`nproc` modules_install
-make -j`nproc` install
+# cp .config_violet .config
+# patch -p1 < path_extracted_cachy/cachy-5.9-r8.patch
+# patch -p1 < path_extracted_cachy/02-idle_balance.patch
+# make -j`nproc` LSMOD=/home/username/.config/modprobed.db localmodconfig
+# make -j`nproc` modules_install
+# make -j`nproc` install
 ```
-
-[backup_config](https://github.com/owl4ce/hold-my-gentoo)
-
 <p align="center">
   <img alt="kernel-modules" align="center" src="./kernel-modules.png"/>
 </p>
+
+[backup_gentoo_config](https://github.com/owl4ce/hold-my-gentoo)
