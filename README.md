@@ -7,8 +7,8 @@
 ## [usr_src_linux](./usr_src_linux)
 <img src="./logo.png" alt="logo" align="right" width="300px">
 
-- LZ4 bzImage
-- [Xanmod based patchset](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
+- [LZ4](https://github.com/lz4/lz4) bzImage
+- [Xanmod based patchset + Gentoo patches](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
 - [Cachy CPU Scheduler](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/hamadmarri/cacule-cpu-scheduler/tree/master/patches/Cachy/v5.9) (cachy + idle balance)
 - Disabled numa, debugging, etc. (kernel hacking)
 - Enabled swap compressed block as default (LZ4)
@@ -25,17 +25,17 @@
 ---
 **~**
 ```bash
-$ modprobed-db store
+modprobed-db store
 ```
 
-**/usr/src/linux**
+**/usr/src/linux** (root)
 ```bash
-# cp .config_violet .config
-# patch -p1 < path_extracted_cachy/cachy-5.9-r8.patch
-# patch -p1 < path_extracted_cachy/02-idle_balance.patch
-# make -j`nproc` LSMOD=/home/username/.config/modprobed.db localmodconfig
-# make -j`nproc` modules_install
-# make -j`nproc` install
+cp .config_violet .config
+patch -p1 < path_extracted_cachy/cachy-5.9-r8.patch
+patch -p1 < path_extracted_cachy/02-idle_balance.patch
+make -j`nproc` LSMOD=/home/username/.config/modprobed.db localmodconfig
+make -j`nproc` modules_install
+make -j`nproc` install
 ```
 <p align="center">
   <img alt="kernel-modules" align="center" src="./kernel-modules.png"/>
