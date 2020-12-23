@@ -16,6 +16,7 @@
 - Governor performance as default
 - BFQ I/O Scheduler as default
 - Custom boot logo - [UwU](./usr_src_linux/drivers/video/logo/logo_linux_clut224.ppm)
+- 1000Hz tick rate
 
 ## [home_username_.config](./home_username_.config)
 - [Modprobed-db](https://github.com/graysky2/modprobed-db)  
