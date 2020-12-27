@@ -1,3 +1,4 @@
+ac97_bus
 acpi_cpufreq
 aesni_intel
 ahci
@@ -42,6 +43,7 @@ i2c_algo_bit
 i2c_piix4
 input_leds
 iommu_v2
+iosf_mbi
 irqbypass
 isofs
 joydev
@@ -73,6 +75,7 @@ sdhci
 sdhci_pci
 serio_raw
 snd
+snd_compress
 snd_hda_codec
 snd_hda_codec_generic
 snd_hda_codec_hdmi
@@ -82,8 +85,13 @@ snd_hda_intel
 snd_hwdep
 snd_intel_dspcfg
 snd_pcm
+snd_pcm_dmaengine
+snd_soc_core
 snd_timer
 soundcore
+soundwire_cadence
+soundwire_generic_allocation
+soundwire_intel
 sp5100_tco
 sparse_keymap
 syscopyarea

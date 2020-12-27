@@ -1,15 +1,15 @@
-## violet-x86_64 <img alt="Visits" align="right" src="https://badges.pufler.dev/visits/owl4ce/violet-x86_64?style=flat-square&label=&color=success&logo=GitHub&logoColor=white&labelColor=373e4d"/>
+## yin-x86_64 <img alt="Visits" align="right" src="https://badges.pufler.dev/visits/owl4ce/violet-x86_64?style=flat-square&label=&color=success&logo=GitHub&logoColor=white&labelColor=373e4d"/>
 
 <p align="center">
-  <img alt="neofetch" align="center" src="./neofetch.png"/>
+  <img alt="info" align="center" src="./info.png"/>
+  <img alt="htop" align="center" src="./htop.png"/>
 </p>
 
 ## [usr_src_linux](./usr_src_linux)
-<img src="./logo.png" alt="logo" align="right" width="300px">
+<img alt="logo" align="right" width="300px" src="./logo.png"/>
 
 - [LZ4](https://github.com/lz4/lz4) bzImage
-- [Xanmod based patchset + Gentoo patches](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
-- [Cachy CPU Scheduler](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/hamadmarri/cacule-cpu-scheduler/tree/master/patches/Cachy/v5.9) (cachy + idle balance)
+- [Xanmod patchset with CacULE scheduler](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
 - Disabled numa, debugging, etc. (kernel hacking)
 - Enabled swap compressed block as default (LZ4)
 - AMD only (disabled most intel features)
@@ -23,6 +23,7 @@
 *https://wiki.archlinux.org/index.php/Modprobed-db*
 
 ---
+
 **~**
 ```bash
 modprobed-db store
@@ -30,15 +31,16 @@ modprobed-db store
 
 **/usr/src/linux** (root)
 ```bash
-cp .config_violet .config
-patch -p1 < path_extracted_cachy/cachy-5.9-r8.patch
-patch -p1 < path_extracted_cachy/02-idle_balance.patch
-make -j`nproc` LSMOD=/home/username/.config/modprobed.db localmodconfig
+cp .config_yin .config
+make -j`nproc` LSMOD=/home/<username>/.config/modprobed.db localmodconfig
 make -j`nproc` modules_install
 make -j`nproc` install
+dracut --kver <version> /boot/initramfs-<version>.img --force
 ```
+
 <p align="center">
-  <img alt="kernel-modules" align="center" src="./kernel-modules.png"/>
+  <img alt="vmlinuz" align="center" src="./vmlinuz.png"/>
+  <img alt="modules" align="center" src="./modules.png"/>
 </p>
 
 [backup_gentoo_config](https://github.com/owl4ce/hold-my-gentoo)
