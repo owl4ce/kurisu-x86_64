@@ -11,6 +11,7 @@
 - [Xanmod patchset with CacULE scheduler](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
 - Disabled numa, debugging, etc. (kernel hacking)
 - Enabled swap compressed block as default (LZ4)
+- Android binder and ashmem support for Anbox
 - AMD only (disabled most intel features)
 - Governor performance as default
 - BFQ I/O Scheduler as default
