@@ -2,7 +2,6 @@
 
 <p align="center">
   <img alt="info" align="center" src="./info.png"/>
-  <img alt="htop" align="center" src="./htop.png"/>
 </p>
 
 ## [usr_src_linux](./usr_src_linux)
@@ -37,10 +36,11 @@ make -j`nproc` modules_install
 make -j`nproc` install
 dracut --kver <version> /boot/initramfs-<version>.img --force
 ```
-
 <p align="center">
-  <img alt="vmlinuz" align="center" src="./vmlinuz.png"/>
-  <img alt="modules" align="center" src="./modules.png"/>
+<img alt="htop" align="center" src="./htop.png"/>
 </p>
-
+  
+vmlinuz|modules
+|--|--|
+![](./vmlinuz.png)|![](./modules.png)
 [backup_gentoo_config](https://github.com/owl4ce/hold-my-gentoo)
