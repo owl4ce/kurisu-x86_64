@@ -4,14 +4,12 @@ aesni_intel
 ahci
 amd_freq_sensitivity
 amdgpu
-ashmem_linux
 ath
 ath3k
 ath9k
 ath9k_common
 ath9k_hw
 backlight
-binder_linux
 binfmt_misc
 ccm
 ccp
