@@ -5,7 +5,7 @@
 </p>
 
 ## [usr_src_linux](./usr_src_linux)
-<img alt="logo" align="right" width="275px" src="./logo.png"/>
+<img alt="logo" align="right" width="300px" src="./logo.png"/>
 
 - [LZ4](https://github.com/lz4/lz4) bzImage (vmlinuz)
 - [Xanmod patchset with CacULE scheduler](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
