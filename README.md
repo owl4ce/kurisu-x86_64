@@ -51,6 +51,8 @@ modprobed-db store
   ```bash
   dracut --kver <version> /boot/initramfs-<version>.img --force
   ```
+  
+> In order for the logo to appear on boot, make sure to use loglevel = 4 in the [kernel parameters](https://wiki.archlinux.org/index.php/Kernel_parameters).
 
 vmlinuz|modules
 |--|--|
