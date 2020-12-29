@@ -27,9 +27,9 @@
 
 ### Store current module
 - **References**: *https://wiki.archlinux.org/index.php/Modprobed-db*
-```bash
-modprobed-db store
-```
+  ```bash
+  modprobed-db store
+  ```
 
 ### Kernel sources directory
 - **Gentoo**: `/usr/src/linux`
