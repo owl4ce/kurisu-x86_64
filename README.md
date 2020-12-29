@@ -5,7 +5,7 @@
 </p>
 
 ## [Kernel Sources](./usr_src_linux)
-<img alt="logo" align="right" width="300px" src="./logo.png"/>
+<img alt="logo" align="right" width="400px" src="./logo.png"/>
 
 - [LZ4](https://github.com/lz4/lz4) bzImage (vmlinuz)
 - [Xanmod patchset with CacULE scheduler](https://xanmod.org/)  
@@ -46,7 +46,7 @@ modprobed-db store
   ```
 
 ### Generate initramfs (if using)
-- **Dracut**
+- **Dracut**  
   Adjust <version> with the kernel version you compiled/use (as root)
   ```bash
   dracut --kver <version> /boot/initramfs-<version>.img --force
