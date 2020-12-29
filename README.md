@@ -8,7 +8,8 @@
 <img alt="logo" align="right" width="300px" src="./logo.png"/>
 
 - [LZ4](https://github.com/lz4/lz4) bzImage (vmlinuz)
-- [Xanmod patchset with CacULE scheduler](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
+- [Xanmod patchset with CacULE scheduler](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)  
+  *https://github.com/hamadmarri/cacule-cpu-scheduler*
 - Disabled numa, debugging, etc. (kernel hacking)
 - Enabled swap compressed block as default (LZ4)
 - Android binder and ashmem support for Anbox
