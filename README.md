@@ -25,7 +25,7 @@
 
 ---
 
-Store current used module
+**Store current module**
 - **References**: *https://wiki.archlinux.org/index.php/Modprobed-db*
 ```bash
 modprobed-db store
@@ -36,11 +36,22 @@ modprobed-db store
 ```bash
 cp .config_yin .config
 make -j`nproc` menuconfig # If you want to adjust yourself again
+
+# Using the database from modprobed-db to set the module to be used. Adjust <username> to where the database is located.
 make -j`nproc` LSMOD=/home/<username>/.config/modprobed.db localmodconfig
-make -j`nproc` modules_install # Make sure this and so on down as root
+
+# Make sure this and so on down as root
+make -j`nproc` modules_install
 make -j`nproc` install
-dracut --kver <version> /boot/initramfs-<version>.img --force
 ```
+
+**Generate initramfs**
+- **Dracut**
+  Adjust <version> with the kernel version you compiled/use (as root)
+  ```bash
+  dracut --kver <version> /boot/initramfs-<version>.img --force
+  ```
+  
 
 vmlinuz|modules
 |--|--|
