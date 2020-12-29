@@ -35,8 +35,9 @@ modprobed-db store
 - **Gentoo**: `/usr/src/linux`
 ```bash
 cp .config_yin .config
+make -j`nproc` menuconfig # If you want to adjust yourself again
 make -j`nproc` LSMOD=/home/<username>/.config/modprobed.db localmodconfig
-make -j`nproc` modules_install
+make -j`nproc` modules_install # Make sure this and so on down as root
 make -j`nproc` install
 dracut --kver <version> /boot/initramfs-<version>.img --force
 ```
