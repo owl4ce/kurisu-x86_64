@@ -4,7 +4,7 @@
   <img alt="info" align="center" src="./info.png"/>
 </p>
 
-## [usr_src_linux](./usr_src_linux)
+## [Kernel Sources](./usr_src_linux)
 <img alt="logo" align="right" width="300px" src="./logo.png"/>
 
 - [LZ4](https://github.com/lz4/lz4) bzImage (vmlinuz)
@@ -20,18 +20,19 @@
 - Custom boot logo - [UwU](./usr_src_linux/drivers/video/logo/logo_linux_clut224.ppm)
 - 1000Hz tick rate
 
-## [home_username_.config](./home_username_.config)
-- [Modprobed-db](https://github.com/graysky2/modprobed-db)  
-*https://wiki.archlinux.org/index.php/Modprobed-db*
+## [Localmodconfig](./home_username_.config)
+- [Modprobed-db](https://github.com/graysky2/modprobed-db)    
 
 ---
 
-**~**
+Store current used module
+- **References**: *https://wiki.archlinux.org/index.php/Modprobed-db*
 ```bash
 modprobed-db store
 ```
 
-**/usr/src/linux** (root)
+**Kernel sources directory**
+- **Gentoo**: `/usr/src/linux`
 ```bash
 cp .config_yin .config
 make -j`nproc` LSMOD=/home/<username>/.config/modprobed.db localmodconfig
