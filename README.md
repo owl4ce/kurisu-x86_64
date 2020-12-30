@@ -7,8 +7,8 @@
 ## [Kernel Sources](./usr_src_linux)
 <img alt="logo" align="right" width="400px" src="./logo.png"/>
 
-- [LZ4](https://github.com/lz4/lz4) bzImage (vmlinuz)
-- [Xanmod patchset, Gentoo patches, CacULE scheduler](https://xanmod.org/)  
+- LZ4 bzImage (vmlinuz)
+- Xanmod-CacULE patchset + Gentoo patches
   - [Gentoo Xanmod Overlay](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
   - [CacULE Scheduler](https://github.com/hamadmarri/cacule-cpu-scheduler)
 - Disabled numa, debugging, etc. (kernel hacking)
