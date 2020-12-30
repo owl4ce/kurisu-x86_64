@@ -10787,3 +10787,18 @@ CONFIG_CC_HAS_SANCOV_TRACE_PC=y
 # CONFIG_HYPERV_TESTING is not set
 # end of Kernel Testing and Coverage
 # end of Kernel hacking
+
+#
+# Gentoo Linux
+#
+CONFIG_GENTOO_LINUX=y
+CONFIG_GENTOO_LINUX_UDEV=y
+CONFIG_GENTOO_LINUX_PORTAGE=y
+
+#
+# Support for init systems, system and service managers
+#
+CONFIG_GENTOO_LINUX_INIT_SCRIPT=y
+# CONFIG_GENTOO_LINUX_INIT_SYSTEMD is not set
+# end of Support for init systems, system and service managers
+# end of Gentoo Linux
