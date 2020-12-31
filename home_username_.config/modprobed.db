@@ -11,6 +11,7 @@ ath9k_common
 ath9k_hw
 backlight
 binfmt_misc
+bpfilter
 ccm
 ccp
 cec
@@ -60,6 +61,8 @@ mc
 mmc_core
 mousedev
 mt7601u
+nfnetlink
+nfnetlink_log
 nls_iso8859_1
 nls_utf8
 pcspkr
@@ -105,6 +108,7 @@ usbkbd
 usbmouse
 usb_storage
 uvcvideo
+veth
 vfat
 video
 videobuf2_common
@@ -116,4 +120,7 @@ wmi
 wmi_bmof
 xhci_pci
 xhci_pci_renesas
+xt_connmark
+xt_NFLOG
+xt_u32
 zram
