@@ -20,12 +20,12 @@
 - Custom boot logo - [UwU](./usr_src_linux/drivers/video/logo/logo_linux_clut224.ppm)
 - 1000Hz tick rate
 
-## [Localmodconfig](./home_username_.config) (optional)
+## [Localmodconfig](./home_username_.config) (optional for minimal kernel)
 - [Modprobed-db](https://github.com/graysky2/modprobed-db)    
 
 ---
 
-### Store current module (optional)
+### Store current module (optional for minimal kernel)
 - **References**: *https://wiki.archlinux.org/index.php/Modprobed-db*
   ```bash
   modprobed-db store
@@ -37,6 +37,7 @@
   cp .config_yin .config
   make -j`nproc` menuconfig # If you want to adjust yourself again
   
+  # OPTIONAL (minimal kernel)
   # Using the database from modprobed-db to set the module to be used. Adjust <username> to where the database is located.
   make -j`nproc` LSMOD=/home/<username>/.config/modprobed.db localmodconfig
   
