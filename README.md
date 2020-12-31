@@ -20,7 +20,7 @@
 - Custom boot logo - [UwU](./usr_src_linux/drivers/video/logo/logo_linux_clut224.ppm)
 - 1000Hz tick rate
 
-## [Localmodconfig](./home_username_.config) (optional for minimal kernel)
+## [Localmodconfig](./home_username_.config) (optional)
 - [Modprobed-db](https://github.com/graysky2/modprobed-db)    
 
 ---
