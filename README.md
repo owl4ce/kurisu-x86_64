@@ -25,7 +25,8 @@
 
 ---
 
-### Store current module (optional for minimal kernel)
+### Store current module
+> **Optional**: minimal kernel
 - **References**: *https://wiki.archlinux.org/index.php/Modprobed-db*
   ```bash
   modprobed-db store
