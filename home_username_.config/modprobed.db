@@ -11,7 +11,9 @@ ath9k_common
 ath9k_hw
 backlight
 binfmt_misc
+blake2b_generic
 bpfilter
+btrfs
 ccm
 ccp
 cec
@@ -54,6 +56,7 @@ kvm_amd
 ledtrig_audio
 libahci
 libarc4
+libcrc32c
 loop
 mac80211
 mac_hid
@@ -68,6 +71,7 @@ nls_utf8
 pcspkr
 psmouse
 r8169
+raid6_pq
 rc_core
 realtek
 rfkill
@@ -120,6 +124,7 @@ wmi
 wmi_bmof
 xhci_pci
 xhci_pci_renesas
+xor
 xt_connmark
 xt_NFLOG
 xt_u32
