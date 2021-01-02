@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.10.3 Kernel Configuration
+# Linux/x86 5.10.4 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Gentoo 9.3.0-r2 p4) 9.3.0"
 CONFIG_CC_IS_GCC=y
@@ -5326,7 +5326,6 @@ CONFIG_MFD_RT5033=m
 CONFIG_MFD_RC5T583=y
 CONFIG_MFD_SEC_CORE=y
 CONFIG_MFD_SI476X_CORE=m
-# CONFIG_MFD_SL28CPLD is not set
 CONFIG_MFD_SM501=m
 CONFIG_MFD_SM501_GPIO=y
 CONFIG_MFD_SKY81452=m
