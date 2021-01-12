@@ -10,7 +10,7 @@
 
 - LZ4 bzImage (vmlinuz)
 - Xanmod-CacULE patchset + Gentoo patches (ebuild)
-  - [Gentoo Xanmod + CacULE flags](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources) (CacULE included)
+  - [Gentoo Xanmod + CacULE flags](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
 - Disabled numa, debugging, etc. (kernel hacking)
   - See suggested configs on [CacULE Scheduler](https://github.com/hamadmarri/cacule-cpu-scheduler)
 - Enabled swap compressed block as default (LZ4)
