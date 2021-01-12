@@ -13,7 +13,7 @@
   - [Gentoo Xanmod](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources) (CacULE included)
   - [CacULE Scheduler](https://github.com/hamadmarri/cacule-cpu-scheduler)
 - Disabled numa, debugging, etc. (kernel hacking)
-  - See suggested configs on [cacule-cpu-scheduler]
+  - See suggested configs on [cacule-cpu-scheduler](https://github.com/hamadmarri/cacule-cpu-scheduler)
 - Enabled swap compressed block as default (LZ4)
 - Android binder and ashmem support (Anbox support)
 - AMD SoC only (disabled most intel features)
