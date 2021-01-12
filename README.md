@@ -3,23 +3,24 @@
 <p align="center">
   <img alt="info" align="center" src="./info.png"/>
 </p>
-<p align="center">Optimized for multitasking under high load</p>
+<p align="center">🎀 Optimized for multitasking under extreme load 🎀</p>
 
 ## [Kernel Sources](./usr_src_linux)
 <img alt="logo" align="right" width="400px" src="./logo.png"/>
 
 - LZ4 bzImage (vmlinuz)
-- Xanmod-CacULE patchset + Gentoo patches
+- Xanmod-CacULE patchset + Gentoo patches (ebuild)
   - [Gentoo Xanmod](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources) (CacULE included)
   - [CacULE Scheduler](https://github.com/hamadmarri/cacule-cpu-scheduler)
 - Disabled numa, debugging, etc. (kernel hacking)
+  - See suggested configs on [cacule-cpu-scheduler]
 - Enabled swap compressed block as default (LZ4)
-- Android binder and ashmem support for Anbox
-- AMD only (disabled most intel features)
-- Governor performance as default
-- BFQ I/O Scheduler as default
-- Custom boot logo - [UwU](./usr_src_linux/drivers/video/logo/logo_linux_clut224.ppm)
-- 1000Hz tick rate
+- Android binder and ashmem support (Anbox support)
+- AMD SoC only (disabled most intel features)
+- Governor performance as default (high perfomance)
+- BFQ I/O Scheduler as default (low latency)
+- Custom boot logo ([UwU](./usr_src_linux/drivers/video/logo/logo_linux_clut224.ppm))
+- 250Hz tick rate (low latency)
 
 ## [Localmodconfig](./home_username_.config) (optional)
 - [Modprobed-db](https://github.com/graysky2/modprobed-db)    
@@ -27,8 +28,8 @@
 ---
 
 ### Store current module
-> **Optional**: minimal kernel
-- **References**: *https://wiki.archlinux.org/index.php/Modprobed-db*
+> **Optional**: If you want minimal kernel
+- **References**: [wiki.archlinux/Modprobed-db](https://wiki.archlinux.org/index.php/Modprobed-db)
   ```bash
   modprobed-db store
   ```
@@ -39,7 +40,7 @@
   cp .config_yin .config
   make -j`nproc` menuconfig # If you want to adjust yourself again
   
-  # OPTIONAL (minimal kernel)
+  # Optional, if you want minimal kernel
   # Using the database from modprobed-db to set the module to be used. Adjust <username> to where the database is located.
   make -j`nproc` LSMOD=/home/<username>/.config/modprobed.db localmodconfig
   
