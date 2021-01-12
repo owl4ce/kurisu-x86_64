@@ -3,7 +3,7 @@
 <p align="center">
   <img alt="info" align="center" src="./info.png"/>
 </p>
-<p align="center">🎀 Optimized for multitasking under extreme load 🎀</p>
+<p align="center">🎀 Optimized for multitasking under high load 🎀</p>
 
 ## [Kernel Sources](./usr_src_linux)
 <img alt="logo" align="right" width="400px" src="./logo.png"/>
