@@ -11,8 +11,8 @@
 - LZ4 bzImage
 - Xanmod-CacULE patchset + Gentoo patches
   - [Gentoo Xanmod + CacULE flags](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
-- Disabled numa, debugging, etc.
-  - [Applied suggested configs on CacULE Scheduler](https://github.com/hamadmarri/cacule-cpu-scheduler#suggested-configs)
+- Applied suggested configs on CacULE Scheduler
+  - [See this](https://github.com/hamadmarri/cacule-cpu-scheduler#suggested-configs)
 - Enabled LZ4 swap compressed block as default
 - Android binder and ashmem support for Anbox
 - AMD SoC only, disabled most intel features
@@ -20,7 +20,6 @@
 - BFQ I/O Scheduler as default
 - Custom boot logo ([っ◔◡◔](./usr_src_linux/drivers/video/logo/logo_linux_clut224.ppm))
 - 250Hz tick rate
-  - [Reference](http://repository.gunadarma.ac.id/313/1/Choosing%20The%20Right%20Timer_UG.pdf)
 
 ## [Localmodconfig](./home_username_.config) (optional)
 - [Modprobed-db](https://github.com/graysky2/modprobed-db)    
