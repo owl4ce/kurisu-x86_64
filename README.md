@@ -6,7 +6,7 @@
 <p align="center">🎀 Optimized for multitasking under high load 🎀</p>
 
 ## [Kernel Sources](./usr_src_linux)
-<img alt="logo" align="right" width="400px" src="./logo.png"/>
+<img alt="logo" align="right" width="360px" src="./logo.png"/>
 
 - LZ4 compressed bzImage
 - [Xanmod-CacULE patchset + Gentoo patches](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
