@@ -20,7 +20,7 @@
 - BFQ I/O Scheduler as default (low latency)
 - Custom boot logo ([っ◔◡◔](./usr_src_linux/drivers/video/logo/logo_linux_clut224.ppm))
 - 250Hz tick rate (my preference)  
-  [Reference](http://repository.gunadarma.ac.id/313/1/Choosing%20The%20Right%20Timer_UG.pdf)
+  - [Reference](http://repository.gunadarma.ac.id/313/1/Choosing%20The%20Right%20Timer_UG.pdf)
 
 ## [Localmodconfig](./home_username_.config) (optional)
 - [Modprobed-db](https://github.com/graysky2/modprobed-db)    
