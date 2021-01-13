@@ -8,11 +8,9 @@
 ## [Kernel Sources](./usr_src_linux)
 <img alt="logo" align="right" width="400px" src="./logo.png"/>
 
-- LZ4 bzImage
-- Xanmod-CacULE patchset + Gentoo patches
-  - [Gentoo Xanmod + CacULE flags](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
-- Applied suggested configs on CacULE Scheduler
-  - [See this](https://github.com/hamadmarri/cacule-cpu-scheduler#suggested-configs)
+- LZ4 compressed bzImage
+- [Xanmod-CacULE patchset + Gentoo patches](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
+- [Applied suggested configs on CacULE Scheduler](https://github.com/hamadmarri/cacule-cpu-scheduler#suggested-configs)
 - Enabled LZ4 swap compressed block as default
 - Android binder and ashmem support for Anbox
 - AMD SoC only, disabled most intel features
