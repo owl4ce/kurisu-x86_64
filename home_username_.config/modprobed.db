@@ -1,7 +1,11 @@
 ac97_bus
 acpi_cpufreq
 aesni_intel
+af_alg
 ahci
+algif_aead
+algif_hash
+algif_skcipher
 amd_freq_sensitivity
 amdgpu
 ath
@@ -18,12 +22,14 @@ ccm
 ccp
 cec
 cfg80211
+cmac
 cqhci
 crc32c_intel
 crc32_pclmul
 crct10dif_pclmul
 cryptd
 crypto_simd
+des_generic
 drm
 drm_kms_helper
 ecc
@@ -57,10 +63,12 @@ ledtrig_audio
 libahci
 libarc4
 libcrc32c
+libdes
 loop
 mac80211
 mac_hid
 mc
+md4
 mmc_core
 mousedev
 mt7601u
@@ -69,6 +77,7 @@ nfnetlink_log
 nls_iso8859_1
 nls_utf8
 pcspkr
+pkcs8_key_parser
 psmouse
 r8169
 raid6_pq
