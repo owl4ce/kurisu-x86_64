@@ -1,10 +1,10 @@
 ## yin-x86_64 <img alt="" align="right" src="https://badges.pufler.dev/visits/owl4ce/yin-x86_64?style=flat-square&label=&color=fa74b2&logo=GitHub&logoColor=white&labelColor=373e4d"/>
 
-<img alt="info" align="center" src="./info.png"/>
+<img alt="info" align="center" src="./screenshots/info.png"/>
 <p align="center">🎀 Optimized for multitasking under high load 🎀</p>
 
 ## [Kernel Sources](./usr_src_linux)
-<img alt="logo" align="right" width="350px" src="./logo.png"/>
+<img alt="logo" align="right" width="350px" src="./screenshots/logo.png"/>
 
 - LZ4 compressed bzImage
 - [Xanmod-CacULE patchset + Gentoo patches](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
