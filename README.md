@@ -1,6 +1,6 @@
 ## yin-x86_64 <img alt="" align="right" src="https://badges.pufler.dev/visits/owl4ce/yin-x86_64?style=flat-square&label=&color=fa74b2&logo=GitHub&logoColor=white&labelColor=373e4d"/>
 
-<img alt="info" align="center" src="./screenshots/info.png"/>
+<p align="center"><img alt="info" align="center" src="./screenshots/info.png"/></p>
 <p align="center">🎀 Optimized for multitasking under high load 🎀</p>
 
 ## [Kernel Sources](./usr_src_linux)
