@@ -11,7 +11,7 @@
 - Enabled LZ4 swap compressed block as default
 - Android binder and ashmem support for Anbox
 - AMD SoC only, disabled most intel features
-- Disabled numa, kexec, debuggin, etc.
+- Disabled numa, kexec, debugging, etc.
 - Governor performance as default
 - BFQ I/O Scheduler as default
 - Custom boot logo ([っ◔◡◔](./usr_src_linux/drivers/video/logo/logo_linux_clut224.ppm))
