@@ -1,10 +1,9 @@
-## yin-x86_64 <img alt="" align="right" src="https://badges.pufler.dev/visits/owl4ce/yin-x86_64?style=flat-square&label=&color=fa74b2&logo=GitHub&logoColor=white&labelColor=373e4d"/>
+## yin-x86_64 <img alt="" align="right" src="https://badges.pufler.dev/visits/owl4ce/kurisu-x86_64?style=flat-square&label=&color=fa74b2&logo=GitHub&logoColor=white&labelColor=373e4d"/>
 
-<p align="center"><img alt="info" align="center" src="./screenshots/info.png"/></p>
 <p align="center">🎀 Optimized for multitasking under high load 🎀</p>
 
-## [Kernel Sources](./usr_src_linux)
-<img alt="logo" align="right" width="350px" src="./screenshots/logo.png"/>
+## [Kernel Sources](./kernel.sources)
+<img alt="logo" align="right" width="350px" src="https://i.ibb.co/TYdw4Md/kurisu.png"/>
 
 - LZ4 compressed bzImage
 - [Xanmod-CacULE patchset + Gentoo patches](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
@@ -14,21 +13,18 @@
 - Disabled numa, kexec, debugging, etc.
 - Governor performance as default
 - BFQ I/O Scheduler as default
-- Custom boot logo ([っ◔◡◔](./usr_src_linux/drivers/video/logo/logo_linux_clut224.ppm))
-- 1000Hz tick rate
+- Kurisu Makise boot logo ([っ◔◡◔](./kurisu/drivers/video/logo/logo_linux_clut224.ppm))  
+  > 1366x768
+- 500Hz tick rate
 
 ---
 
 ### Kernel sources directory
 - **Gentoo**: `/usr/src/linux`
   ```bash
-  cp .config_yin .config
+  cp .config_kurisu .config
   make -j`nproc` menuconfig # If you want to adjust yourself again
-  
-  # Optional, if you want minimal kernel
-  # Using the database from modprobed-db to set the module to be used. Adjust <username> to where the database is located.
-  make -j`nproc` LSMOD=/home/<username>/.config/modprobed.db localmodconfig
-  
+
   # Make sure this and so on down as root
   make -j`nproc` modules_install
   make -j`nproc` install
