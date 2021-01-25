@@ -45,4 +45,4 @@ make -j`nproc` install
 
 > If you want silent boot, simply use `quiet` instead.
 
-[backup_gentoo_config](https://github.com/owl4ce/hold-my-gentoo)
+[`backup_gentoo_config`](https://github.com/owl4ce/hold-my-gentoo)
