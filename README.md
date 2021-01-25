@@ -38,5 +38,6 @@
   ```
   
 > In order for the logo to appear on boot, make sure to use `loglevel=4` in the [kernel parameters](https://wiki.archlinux.org/index.php/Kernel_parameters).
+> If you want silent boot, simply use `quiet` instead.
 
 [backup_gentoo_config](https://github.com/owl4ce/hold-my-gentoo)
