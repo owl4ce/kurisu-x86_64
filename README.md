@@ -30,6 +30,8 @@
   make -j`nproc` install
   ```
 
+---
+
 ### Generate initramfs (if using)
 - **Dracut**  
   Adjust <version> with the kernel version you compiled/use (as root)
