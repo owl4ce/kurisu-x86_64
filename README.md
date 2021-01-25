@@ -3,7 +3,7 @@
 ###### Optimized for multitasking under high load
 
 ## [Kernel Sources](./kernel.sources)
-<img alt="logo" align="right" width="222px" src="https://i.ibb.co/TYdw4Md/kurisu.png"/>
+<img alt="logo" align="right" width="400px" src="https://i.ibb.co/TYdw4Md/kurisu.png"/>
 
 - Enabled LZ4 swap compressed block as default
 - Android binder and ashmem support for Anbox
@@ -13,7 +13,7 @@
 - Governor performance as default
 - BFQ I/O Scheduler as default
 - LZ4 compressed bzImage
-- [Kurisu Makise boot logo](./kurisu/drivers/video/logo/logo_linux_clut224.ppm)
+- [Kurisu Makise boot logo](./kernel.sources/drivers/video/logo/logo_linux_clut224.ppm)
   > Only for 1366x768
 - 500Hz tick rate
 
