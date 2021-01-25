@@ -5,17 +5,17 @@
 ## [Kernel Sources](./kernel.sources)
 <a href="#kernel-sources"><img alt="logo" align="right" width="400px" src="https://i.ibb.co/TYdw4Md/kurisu.png"/></a>
 
-- Enabled LZ4 swap compressed block as default
-- Android binder and ashmem support for Anbox
-- [Xanmod-CacULE patchset + Gentoo patches](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
-- AMD SoC only, disabled most intel features
-- Disabled numa, kexec, debugging, etc.
-- Governor performance as default
-- BFQ I/O Scheduler as default
-- LZ4 compressed bzImage
+- 500Hz tick rate
 - [Kurisu Makise boot logo](./kernel.sources/drivers/video/logo/logo_linux_clut224.ppm)
   > Only for 1366x768
-- 500Hz tick rate
+- LZ4 compressed bzImage
+- BFQ I/O Scheduler as default
+- Governor performance as default
+- Disabled numa, kexec, debugging, etc.
+- [Xanmod-CacULE patchset + Gentoo patches](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
+- AMD SoC only, disabled most intel features
+- Android binder and ashmem support for Anbox
+- Enabled LZ4 swap compressed block as default
 
 ---
 
