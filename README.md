@@ -3,7 +3,7 @@
 ###### Optimized for multitasking under high load
 
 ## [Kernel Sources](./kernel.sources)
-<img alt="logo" align="right" width="400px" src="https://i.ibb.co/TYdw4Md/kurisu.png"/>
+<a href="#kernel-sources"><img alt="logo" align="right" width="400px" src="https://i.ibb.co/TYdw4Md/kurisu.png"/></a>
 
 - Enabled LZ4 swap compressed block as default
 - Android binder and ashmem support for Anbox
@@ -38,8 +38,11 @@
   ```bash
   dracut --kver <version> /boot/initramfs-<version>.img --force
   ```
-  
+
 > In order for the logo to appear on boot, make sure to use `loglevel=4` in the [kernel parameters](https://wiki.archlinux.org/index.php/Kernel_parameters).
+
+<p align="center"><img src="https://i.ibb.co/1T0rYL4/final.gif"/></p>
+
 > If you want silent boot, simply use `quiet` instead.
 
 [backup_gentoo_config](https://github.com/owl4ce/hold-my-gentoo)
