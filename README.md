@@ -6,8 +6,7 @@
 <a href="#kernel-sources"><img alt="logo" align="right" width="400px" src="https://i.ibb.co/TYdw4Md/kurisu.png"/></a>
 
 - 500Hz tick rate
-- [Kurisu Makise boot logo](./kernel.sources/drivers/video/logo/logo_linux_clut224.ppm)
-  > Only for 1366x768
+- [Kurisu Makise boot logo](./kernel.sources/drivers/video/logo/logo_linux_clut224.ppm) <kbd>1366x768</kbd>
 - LZ4 compressed bzImage
 - BFQ I/O Scheduler as default
 - Governor performance as default
@@ -20,15 +19,16 @@
 ---
 
 ### Kernel sources directory
-- **Gentoo**: `/usr/src/linux`
-  ```bash
-  cp .config_kurisu .config
-  make -j`nproc` menuconfig # If you want to adjust yourself again
+- **Gentoo**:  
+`/usr/src/linux`
+```bash
+cp .config_kurisu .config
+make -j`nproc` menuconfig # If you want to adjust yourself again
 
-  # Make sure this and so on down as root
-  make -j`nproc` modules_install
-  make -j`nproc` install
-  ```
+# Make sure this and so on down as root
+make -j`nproc` modules_install
+make -j`nproc` install
+```
 
 ---
 
