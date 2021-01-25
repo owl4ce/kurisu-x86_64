@@ -6,7 +6,8 @@
 <a href="#kernel-sources"><img alt="logo" align="right" width="400px" src="https://i.ibb.co/TYdw4Md/kurisu.png"/></a>
 
 - 500Hz tick rate
-- [Kurisu Makise boot logo](./kernel.sources/drivers/video/logo/logo_linux_clut224.ppm) <kbd>Only for 1366x768</kbd>
+- [Kurisu Makise boot logo](./kernel.sources/drivers/video/logo/logo_linux_clut224.ppm)
+  > Only for 1366x768
 - LZ4 compressed bzImage
 - BFQ I/O Scheduler as default
 - Governor performance as default
