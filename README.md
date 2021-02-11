@@ -1,6 +1,6 @@
 ## kurisu-x86_64 <img alt="" align="right" src="https://badges.pufler.dev/visits/owl4ce/kurisu-x86_64?style=flat-square&label=&color=fa74b2&logo=GitHub&logoColor=white&labelColor=373e4d"/>
 
-###### Optimized for multitasking under high load
+###### Optimized for multitasking under heavy load
 
 ## [Kernel Sources](./kernel.sources)
 <a href="#kernel-sources"><img alt="logo" align="right" width="400px" src="https://i.ibb.co/TYdw4Md/kurisu.png"/></a>
@@ -22,6 +22,7 @@
 `/usr/src/linux`
 ```bash
 cp .config_kurisu .config
+
 # If you want to adjust yourself again
 make -j`nproc` menuconfig
 
