@@ -11,10 +11,9 @@
 - BFQ I/O Scheduler as default
 - Governor performance as default
 - Disabled numa, kexec, debugging, etc.
-- AMD SoC only, disabled most intel features
+- AMD SoC only, disabled most Intel features
 - [Xanmod-CacULE patchset + Gentoo patches](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
-- Android binder and ashmem support for Anbox
-- Enabled LZ4 swap compressed block as default
+- Enabled LZ4 + Zsmalloc swap compressed block
 
 ---
 
@@ -23,7 +22,8 @@
 `/usr/src/linux`
 ```bash
 cp .config_kurisu .config
-make -j`nproc` menuconfig # If you want to adjust yourself again
+# If you want to adjust yourself again
+make -j`nproc` menuconfig
 
 # Make sure this and so on down as root
 make -j`nproc` modules_install
