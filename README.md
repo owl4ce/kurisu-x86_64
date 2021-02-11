@@ -5,7 +5,6 @@
 ## [Kernel Sources](./kernel.sources)
 <a href="#kernel-sources"><img alt="logo" align="right" width="400px" src="https://i.ibb.co/TYdw4Md/kurisu.png"/></a>
 
-- Aufs5 [<kbd>patch</kbd>](https://github.com/sfjro/aufs5-standalone/tree/aufs5.10)
 - 500Hz tick rate
 - [Kurisu boot logo](./kernel.sources/drivers/video/logo/logo_linux_clut224.ppm) <kbd>1366x768</kbd>
 - LZ4 compressed bzImage
