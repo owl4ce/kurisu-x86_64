@@ -18,7 +18,7 @@
 ---
 
 ### Kernel sources directory
-- **Gentoo**:  
+**Gentoo**  
 `/usr/src/linux`
 ```bash
 cp .config_kurisu .config
