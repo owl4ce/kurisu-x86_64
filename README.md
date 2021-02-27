@@ -8,7 +8,7 @@
 - 500Hz tick rate
 - [Kurisu boot logo](./kernel.sources/drivers/video/logo/logo_linux_clut224.ppm) <kbd>1366x768</kbd>
 - LZ4 compressed bzImage
-- ~~BFQ I/O Scheduler as default~~
+- BFQ I/O Scheduler as default
 - Governor performance as default
 - Disabled numa, kexec, debugging, etc.
 - AMD SoC only, disabled most Intel features
