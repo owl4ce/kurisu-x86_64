@@ -15,8 +15,7 @@
 - [Xanmod-~~CacULE~~ patchset + Gentoo patches](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
 - Enabled LZ4 + Zsmalloc swap compressed block
 
----
-
+##  
 ### Kernel sources directory
 **Gentoo**  
 `/usr/src/linux`
@@ -31,7 +30,7 @@ make -j`nproc` modules_install
 make -j`nproc` install
 ```
 
----
+##  
 
 ### Generate initramfs (if using)
 **Dracut**  
