@@ -13,7 +13,7 @@
 - Disabled numa, kexec, debugging, etc.
 - AMD SoC only, disabled most Intel features
 - [Xanmod-~~CacULE~~ patchset + Gentoo patches](https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources)
-- Enabled LZ4 + Zsmalloc swap compressed block
+- Enabled LZ4 + Zbud swap compressed block
 
 ##  
 ### Kernel sources directory
